@@ -50,8 +50,8 @@ const Header = () => {
                 {item.label}
               </a>
             ))}
-            <Button size="lg" className="ml-4">
-              Reservar Mesa
+            <Button size="lg" className="ml-4" asChild>
+              <a href="#contact">Reservar Mesa</a>
             </Button>
           </nav>
 
@@ -78,8 +78,8 @@ const Header = () => {
                   {item.label}
                 </a>
               ))}
-              <Button size="lg" className="w-full mt-4">
-                Reservar Mesa
+              <Button size="lg" className="w-full mt-4" asChild>
+                <a href="#contact">Reservar Mesa</a>
               </Button>
             </div>
           </nav>
