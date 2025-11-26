@@ -17,7 +17,7 @@ const Location = () => {
           {/* Map */}
           <div className="w-full h-[400px] rounded-xl overflow-hidden shadow-soft-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.8287267716285!2d-3.7037902!3d40.4167754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3c81%3A0xc436dec1618c2269!2sMadrid%2C%20Spain!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.4715344!2d-77.0301654!3d-12.119999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8262c86e4e3%3A0x3d0a2b42e9c86478!2sAv.%20Jos%C3%A9%20Larco%2C%20Miraflores%2C%20Lima!5e0!3m2!1ses!2spe!4v1234567890123!5m2!1ses!2spe"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -40,8 +40,8 @@ const Location = () => {
                     Dirección
                   </h3>
                   <p className="text-muted-foreground">
-                    Calle del Mediterráneo, 42<br />
-                    28001 Madrid, España
+                    Av. Larco 1301, Miraflores<br />
+                    15074 Lima, Perú
                   </p>
                 </div>
               </div>
@@ -57,7 +57,7 @@ const Location = () => {
                     Teléfono
                   </h3>
                   <p className="text-muted-foreground">
-                    +34 912 345 678<br />
+                    +51 1 445 8920<br />
                     <span className="text-sm">Lunes - Domingo: 12:00 - 23:00</span>
                   </p>
                 </div>
@@ -74,8 +74,8 @@ const Location = () => {
                     Email
                   </h3>
                   <p className="text-muted-foreground">
-                    info@sabormediterraneo.com<br />
-                    reservas@sabormediterraneo.com
+                    contacto@sabormediterraneo.pe<br />
+                    reservas@sabormediterraneo.pe
                   </p>
                 </div>
               </div>
