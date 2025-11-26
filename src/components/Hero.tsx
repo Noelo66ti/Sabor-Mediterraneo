@@ -25,8 +25,9 @@ const Hero = () => {
         <Button
           size="lg"
           className="text-lg px-8 py-6 hover:scale-105 transition-transform animate-fade-in bg-primary hover:bg-primary/90"
+          asChild
         >
-          Reservar Mesa <ArrowRight className="ml-2" size={20} />
+          <a href="#contact">Reservar Mesa <ArrowRight className="ml-2" size={20} /></a>
         </Button>
       </div>
 
