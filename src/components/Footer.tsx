@@ -14,7 +14,7 @@ const Footer = () => {
             </h3>
             <p className="text-white/70 leading-relaxed mb-6">
               Auténtica cocina mediterránea con ingredientes frescos y un servicio excepcional
-              en el corazón de Madrid.
+              en el corazón de Lima.
             </p>
             <div className="flex space-x-4">
               <a
@@ -75,17 +75,17 @@ const Footer = () => {
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="text-primary mt-1 flex-shrink-0" />
                 <span className="text-white/70">
-                  Calle del Mediterráneo, 42<br />
-                  28001 Madrid, España
+                  Av. Larco 1301, Miraflores<br />
+                  15074 Lima, Perú
                 </span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone size={18} className="text-primary flex-shrink-0" />
-                <span className="text-white/70">+34 912 345 678</span>
+                <span className="text-white/70">+51 1 445 8920</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail size={18} className="text-primary flex-shrink-0" />
-                <span className="text-white/70">info@sabormediterraneo.com</span>
+                <span className="text-white/70">contacto@sabormediterraneo.pe</span>
               </li>
             </ul>
           </div>
